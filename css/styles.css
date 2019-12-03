@@ -1,25 +1,10 @@
+/* ~ Main HTML tags ~ */
+
 body {
     color: #40514E;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
-}
-
-.top-container {
-    background-color: #b6e9cf;
-    position: relative;
-    padding-top: 100px;
-}
-
-.middle-container {
-    margin: 100px 0px 0px;
-}
-
-.bottom-container {
-    background-color: #37a3a8;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: auto;
 }
 
 h1 {
@@ -67,37 +52,29 @@ p {
     line-height: 2;
 }
 
-.profile {
-    padding-bottom: 20px;
+/* ~ Three main containers top to bottom ~ */
+
+.top-container {
+    background-color: #b6e9cf;
+    position: relative;
+    padding-top: 100px;
 }
 
-.skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
+.middle-container {
+    margin: 100px 0px 0px;
 }
+
+.bottom-container {
+    background-color: #37a3a8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+/* ~ Main class tags in alphabetical order ~ */
 
 .contact-me {
     padding-bottom: 25px;
-}
-
-.copyright {
-    color: #eaf6f6;
-    font-size: 0.75rem;
-}
-
-.footer-link {
-    margin: 10px 20px;
-}
-
-.pro-span {
-    text-decoration: underline;
-}
-
-.intro {
-    width: 30%;
-    margin: auto;
 }
 
 .contact-message {
@@ -105,9 +82,51 @@ p {
     margin: 40px auto 60px;
 }
 
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+.education-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.footer-link {
+    margin: 10px 20px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.profile {
+    padding-bottom: 20px;
+}
+
 .programmer {
     font-weight: normal;
 }
+
+.pro-span {
+    text-decoration: underline;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.used-images-text {
+    font-size: xx-small;
+}
+
+/* ~ Main images in order of appearance~ */
 
 .top-cloud {
     position: absolute;
@@ -119,10 +138,6 @@ p {
     position: absolute;
     left: 250px;
     bottom: 300px;
-}
-
-.used-images-text {
-    font-size: xx-small;
 }
 
 .profile-img {
@@ -140,6 +155,8 @@ p {
     float: right;
     margin-left: 30px;
 }
+
+/* ~ Code for making a button used by CSS Button Generator ~ */
 
 .btn {
     -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
